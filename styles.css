@@ -81,3 +81,27 @@ button{
     border-radius: 20px;
     font-family: 'Lexend Deca', sans-serif;
 }
+
+@media (max-width: 580px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        margin-left: 12.5%;
+    }
+    img{
+        margin-left: 12.5%;
+    }
+    .card1{
+        border-radius: 10px 10px 0 0;
+    }
+    .card3{
+        border-radius: 0 0 10px 10px;
+    }
+    button{
+        margin-left: 12.5%;
+        height: 10vw;
+        margin-top: 5vw;
+    }
+}
